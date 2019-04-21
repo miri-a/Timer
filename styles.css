@@ -10,8 +10,6 @@ html, body {
   grid-template-columns: 3;
   grid-template-rows: 3;
   text-align: center;
-  justify-content: stretch;
-  align-content: stretch;
   border: 3px solid;
   margin-top: 140px;
 }

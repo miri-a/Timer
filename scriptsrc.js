@@ -61,7 +61,12 @@ function countdown(name, minutes, countdown, start, reset) {
     alert(document.getElementById(name).innerHTML + " is ready!");
     };
 
+    // Change tab title
+
+    document.getElementById("title").innerHTML = "(" + timeConverter(seconds) + ") Timer";
+
     // Reset button
+
     document.querySelector(reset).addEventListener('click', function() {
         clearInterval(interval);
         document.getElementById(countdown).innerHTML = "00:00";
