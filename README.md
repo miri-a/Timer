@@ -13,3 +13,4 @@ This project is created with:
 ## Status
 **Finished.**
 * 20.04.19 - Mobile responsive grid and audio file for alarm added.
+* 21.04.19 - Added *.ico and a countdown timer on a tab.
